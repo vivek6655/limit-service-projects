@@ -33,4 +33,10 @@ public class LimitsController {
 		return limitService.getName();
 		
 	}
+	
+	@GetMapping("/namess")
+	public List<String> retrieveNamess() {
+		return limitService.getName();
+		
+	}
 }
